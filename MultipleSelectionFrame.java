@@ -29,6 +29,8 @@ public class MultipleSelectionFrame extends JFrame
         add(new JScrollPane(colorJList));
 
         copyJButton = new JButton("Copy >>>");
+        
+        //kam suru okan taki
         copyJButton.addActionListener(new ActionListener()
         {
             @Override
